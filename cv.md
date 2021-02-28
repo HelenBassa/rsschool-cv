@@ -42,6 +42,15 @@ module.exports = class DepthCalculator {
 ```
 
 ## Work experience
+**Landing pages**:
+* [Page 1][1]
+* [Page 2][2]
+
+[**Images Reviewer**][3]
+
+[1]:https://activeboxkenny.netlify.app/
+[2]:https://studiogolden.netlify.app/
+[3]:https://imagesreviewer.netlify.app/
 
 ## Education
 > **Self-education**
