@@ -22,6 +22,24 @@ My strengths are responsibility, quick learning, the ability not to give in to d
 * Photoshop
 
 ## Code examples
+``` javascript
+module.exports = class DepthCalculator {
+  calculateDepth(arr) {
+    if (!Array.isArray(arr)) {
+      return 0;
+    }
+
+    let depth = 1;
+
+    for (let elem of arr) {
+      let depthOfFlatArray = 1;
+      depth = Math.max(depth, this.calculateDepth(elem) + depthOfFlatArray);
+    }
+
+    return depth;
+  }
+};
+```
 
 ## Work experience
 
