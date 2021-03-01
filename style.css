@@ -63,6 +63,7 @@ p {
   line-height: 27px;
   color: #5b5b5e;
   padding-top: 10px;
+  text-align: justify;
 }
 
 h1 ~ p:first-of-type {
@@ -102,8 +103,7 @@ a p:active {
 
 .header_content_wrap,
 .main_content_wrap,
-.footer_content_wrap,
-article {
+.footer_content_wrap {
   padding: 25px 0;
 }
 
