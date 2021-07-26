@@ -108,7 +108,7 @@ a p:active {
 
 li.location::before {
   content: "";
-  background: url(/assets/icons/location.svg) no-repeat 50%;
+  background: url(../icons/location.svg) no-repeat 50%;
   width: 13px;
   height: 22px;
   position: absolute;
@@ -116,7 +116,7 @@ li.location::before {
 
 li.phone::before {
   content: "";
-  background: url(/assets/icons/phone.svg) no-repeat 50%;
+  background: url(../icons/phone.svg) no-repeat 50%;
   width: 14px;
   height: 24px;
   position: absolute;
@@ -124,7 +124,7 @@ li.phone::before {
 
 li.email::before {
   content: "";
-  background: url(/assets/icons/email.svg) no-repeat 50%;
+  background: url(../icons/email.svg) no-repeat 50%;
   width: 16px;
   height: 21px;
   position: absolute;
@@ -132,7 +132,7 @@ li.email::before {
 
 li.linkedin::before {
   content: "";
-  background: url(/assets/icons/linkedin.svg) no-repeat 50%;
+  background: url(../icons/linkedin.svg) no-repeat 50%;
   width: 16px;
   height: 21px;
   position: absolute;
@@ -162,7 +162,7 @@ li.linkedin::before {
   margin: 25px 0px;
 }
 
-.header__content img {
+.avatar {
   border-radius: 50%;
   width: 200px;
   height: 200px;
@@ -281,7 +281,7 @@ pre {
   width: 120px;
   height: 45px;
   padding-left: 45px;
-  background-image: url("/assets/icons/github.svg");
+  background-image: url(../icons/github.svg);
   background-size: 35px;
   background-repeat: no-repeat;
   background-position: left center;
@@ -300,7 +300,7 @@ pre {
   font-family: "Open Sans", sans-serif;
   width: 86px;
   height: 32px;
-  background-image: url("/assets/icons/rss.svg");
+  background-image: url(../icons/rss.svg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: left center;
